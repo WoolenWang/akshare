@@ -3012,9 +3012,23 @@ amac_manager_cancelled_info # 中国证券投资基金业协会-信息公示-诚
 1.16.1 fix: fix stock_main_fund_flow interface
 1.16.2 fix: fix stock_board_industry_hist_em interface
 1.16.3 fix: fix stock_zh_index_spot_em interface
+1.16.4 fix: fix stock_hk_ggt_components_em interface
+1.16.5 fix: fix stock_sector_fund_flow_rank interface
+1.16.6 fix: fix stock_sgt_reference_exchange_rate_sse interface
+1.16.7 fix: fix fund_lof_hist_em interface
+1.16.8 fix: fix option_czce_daily interface
+1.16.9 fix: fix stock_sse_deal_daily interface
+1.16.10 fix: fix option_risk_analysis_em interface
+1.16.11 fix: fix stock_intraday_em interface
+1.16.12 fix: fix bond_zh_hs_cov_daily interface
+1.16.13 fix: fix futures_inventory_99 interface
+1.16.14 fix: fix stock_info_global_cls interface
+1.16.15 fix: fix stock_board_concept_name_em interface
+1.16.16 fix: fix stock_board_concept_spot_em interface
+1.16.17 fix: fix stock_research_report_em interface
 """
 
-__version__ = "1.16.3"
+__version__ = "1.16.17"
 __author__ = "AKFamily"
 
 import sys
@@ -4042,6 +4056,7 @@ from akshare.stock.stock_board_concept_em import (
     stock_board_concept_hist_em,
     stock_board_concept_hist_min_em,
     stock_board_concept_name_em,
+    stock_board_concept_spot_em,
 )
 
 """
@@ -4261,6 +4276,16 @@ from akshare.stock_feature.stock_report_em import (
 业绩报告
 """
 from akshare.stock_feature.stock_yjbb_em import stock_yjbb_em
+
+"""
+同花顺-概念板块
+"""
+from akshare.stock_feature.stock_board_concept_ths import (
+    stock_board_concept_info_ths,
+    stock_board_concept_summary_ths,
+    stock_board_concept_index_ths,
+    stock_board_concept_name_ths,
+)
 
 """
 同花顺-行业板块

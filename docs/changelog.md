@@ -80,6 +80,80 @@
 
 ## 更新说明详情
 
+1.16.17 fix: fix stock_research_report_em interface
+
+	1. 修复 stock_research_report_em 接口
+	2. 修复 stock_board_industry_name_em 接口
+	3. 新增 stock_board_concept_index_ths 接口
+
+1.16.16 fix: fix stock_board_concept_spot_em interface
+
+	1. 修复 stock_board_concept_spot_em 接口
+	2. 修复 futures_inventory_em 接口
+
+1.16.15 fix: fix stock_board_concept_name_em interface
+
+	1. 修复 stock_board_concept_name_em 接口
+
+1.16.14 fix: fix stock_info_global_cls interface
+
+	1. 修复 stock_info_global_cls 接口
+
+1.16.13 fix: fix futures_inventory_99 interface
+
+	1. 修复 futures_inventory_99 接口
+
+1.16.12 fix: fix bond_zh_hs_cov_daily interface
+
+	1. 修复 bond_zh_hs_cov_daily 接口
+	2. 修复 reits_realtime_em 接口
+	3. 修复 stock_staq_net_stop 接口
+
+1.16.11 fix: fix stock_intraday_em interface
+
+	1. 修复 stock_intraday_em 接口
+	2. 修复 stock_hk_famous_spot_em 接口
+	3. 修复 stock_new_a_spot_em 接口
+	4. 修复 stock_us_famous_spot_em 接口
+	5. 修复 index_zh_a_hist_min_em 接口
+
+1.16.10 fix: fix option_risk_analysis_em interface
+
+	1. 修复 option_risk_analysis_em 接口
+	2. 修复 option_value_analysis_em 接口
+	3. 修复 option_premium_analysis_em 接口
+
+1.16.9 fix: fix stock_sse_deal_daily interface
+
+	1. 修复 stock_sse_deal_daily 接口
+
+1.16.8 fix: fix option_czce_daily interface
+
+	1. 修复 option_czce_daily 接口
+
+1.16.7 fix: fix fund_lof_hist_em interface
+
+	1. 修复 fund_lof_hist_em 接口
+	2. 修复 fund_etf_spot_em 接口
+	3. 修复 stock_us_pink_spot_em 接口
+	4. 修复 futures_hist_em 接口
+
+1.16.6 fix: fix stock_sgt_reference_exchange_rate_sse interface
+
+	1. 修复 stock_sgt_reference_exchange_rate_sse 接口
+
+1.16.5 fix: fix stock_sector_fund_flow_rank interface
+
+	1. 修复 stock_sector_fund_flow_rank 接口
+
+1.16.4 fix: fix stock_hk_ggt_components_em interface
+
+	1. 修复 stock_hk_ggt_components_em 接口
+	2. 修复 option_current_em 接口
+	3. 修复 stock_board_concept_name_em 接口
+	4. 修复 stock_hk_spot 接口
+	5. 修复 stock_hk_index_daily_em 接口
+
 1.16.3 fix: fix stock_zh_index_spot_em interface
 
 	1. 修复 stock_zh_index_spot_em 接口
@@ -5114,6 +5188,34 @@
     3. 修改 air_quality_hist 接口的请求日期格式，从 '2022-01-01' 为 '20220101'
 
 ## 版本更新说明
+
+1.16.17 fix: fix stock_research_report_em interface
+
+1.16.16 fix: fix stock_board_concept_spot_em interface
+
+1.16.15 fix: fix stock_board_concept_name_em interface
+
+1.16.14 fix: fix stock_info_global_cls interface
+
+1.16.13 fix: fix futures_inventory_99 interface
+
+1.16.12 fix: fix bond_zh_hs_cov_daily interface
+
+1.16.11 fix: fix stock_intraday_em interface
+
+1.16.10 fix: fix option_risk_analysis_em interface
+
+1.16.9 fix: fix stock_sse_deal_daily interface
+
+1.16.8 fix: fix option_czce_daily interface
+
+1.16.7 fix: fix fund_lof_hist_em interface
+
+1.16.6 fix: fix stock_sgt_reference_exchange_rate_sse interface
+
+1.16.5 fix: fix stock_sector_fund_flow_rank interface
+
+1.16.4 fix: fix stock_hk_ggt_components_em interface
 
 1.16.3 fix: fix stock_zh_index_spot_em interface
 
